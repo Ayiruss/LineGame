@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Student/StudioProjects/LineGame/app/build/intermediates/res/merged/debug/raw/sel.wav",
+        "source": "/Users/Student/StudioProjects/LineGame/app/src/main/res/raw/sel.wav"
+    },
+    {
+        "merged": "/Users/Student/StudioProjects/LineGame/app/build/intermediates/res/merged/debug/raw/looptrack.wav",
+        "source": "/Users/Student/StudioProjects/LineGame/app/src/main/res/raw/looptrack.wav"
+    },
+    {
+        "merged": "/Users/Student/StudioProjects/LineGame/app/build/intermediates/res/merged/debug/raw/press.wav",
+        "source": "/Users/Student/StudioProjects/LineGame/app/src/main/res/raw/press.wav"
+    }
+]

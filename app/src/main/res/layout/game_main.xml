@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:paddingLeft="0dp" >
+
+    <RelativeLayout
+        android:id="@+id/mysurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/but_undo"
+        android:layout_alignParentRight="true" >
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/but_bestscore"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mysurface"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="90dp"
+        android:minHeight="24dp"
+        android:minWidth="90dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="BestScore" />
+
+    <Button
+        android:id="@+id/but_track"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/but_bestscore"
+        android:maxWidth="50dp"
+        android:minHeight="24dp"
+        android:minWidth="50dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="Track" />
+
+    <Button
+        android:id="@+id/but_UndoAllME"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/but_bestscore"
+        android:maxWidth="70dp"
+        android:minHeight="24dp"
+        android:minWidth="70dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="UndoAll" />
+
+    <Button
+        android:id="@+id/but_undo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/but_track"
+        android:maxWidth="50dp"
+        android:minHeight="24dp"
+        android:minWidth="50dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="Undo" />
+
+</RelativeLayout>
